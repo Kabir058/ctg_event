@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(22, 171, 14);
+    color: rgb(243, 243, 243);
     text-decoration: none;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ nav ul li a {
 
 .hero {
     text-align: center;
-    background-color: #086e74;
+    background-color: #fdfdfd;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -57,6 +57,7 @@ nav ul li a {
     margin-top: 0;
     font-size: 2rem;
     font-family: 'Merriweather', serif;
+    color: #0f4d8b;
 }
 
 .hero p {
