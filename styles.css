@@ -222,7 +222,11 @@ nav ul li a {
     margin-top: 0;
     font-size: 1.5rem;
     font-family: 'Merriweather', serif;
-    color: #343a40;
+    color: #0f4d8b;
+}
+.feature-content p, .service-content p{
+    color: orangered;
+    font-weight: bolder;
 }
 
 footer {
