@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Management Chattogram</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylectgeve.css">
+    <link rel="stylesheet" href="form.html">
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+
 </head>
 
 <body>
+
     <header>
         <h1>Event Management Chattogram</h1>
         <nav>
@@ -18,10 +29,11 @@
                 <li><a href="#features" onclick="showSection('features')">Features</a></li>
                 <li><a href="#services" onclick="showSection('services')">Services</a></li>
                 <li><a href="#contact" onclick="showSection('contact')">Contact Us</a></li>
-                <li><a href="#gallery" onclick="showSection('gallery')"> Gallery </a></li>
+
             </ul>
         </nav>
     </header>
+    
     <main>
         <section id="home" class="section">
             <div class="hero">
@@ -75,102 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="gallery" id="gallery">
-            <h1 class="heading">our <span>gallery</span></h1>
-      
-            <div class="box-container">
-              <div class="box">
-                <img src="images/gallery1.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery2.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery3.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery4.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery5.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery6.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery7.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery8.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-      
-              <div class="box">
-                <img src="images/gallery9.jpg" alt="" />
-                <h3 class="title">best events</h3>
-                <div class="icons">
-                  <a href="#" class="fas fa-heart"></a>
-                  <a href="#" class="fas fa-share"></a>
-                  <a href="#" class="fas fa-eye"></a>
-                </div>
-              </div>
-            </div>
-          </section>
-      
+
 
         <section id="about" class="section hidden">
             <h2>About Us</h2>
@@ -239,68 +156,71 @@
                     <img src="Image/LSB-HERO-IMAGE-22.jpg" alt="Service 1">
                     <div class="service-content">
                         <h3>Parties</h3>
-                    <p>We organize themed parties, birthday celebrations, and private gatherings with a unique touch.
-                    </p>
+                        <p>We organize themed parties, birthday celebrations, and private gatherings with a unique
+                            touch.
+                        </p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/conference-speaker.jpg" alt="Service 2">
                     <div class="service-content">
                         <h3>Conferences</h3>
-                        <p>Professional conference planning with state-of-the-art facilities and seamless coordination.</p>
+                        <p>Professional conference planning with state-of-the-art facilities and seamless coordination.
+                        </p>
                     </div>
-                   
+
                 </div>
                 <div class="service">
                     <img src="Image/Designing-an-Exhibition-1.webp" alt="Service 3">
                     <div class="service-content">
                         <h3>Exhibitions</h3>
-                    <p>Comprehensive exhibition management services, from booth design to attendee engagement.</p>
+                        <p>Comprehensive exhibition management services, from booth design to attendee engagement.</p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/product-launch-hero-1.png" alt="Service 4">
                     <div class="service-content">
                         <h3>Product Launches</h3>
-                    <p>Innovative and impactful product launch events that make a lasting impression.</p>
+                        <p>Innovative and impactful product launch events that make a lasting impression.</p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/unnamed.jpg" alt="Service 5">
                     <div class="service-content">
                         <h3>Annual Meetings</h3>
-                    <p>Expert planning and execution of annual meetings with attention to detail and professionalism.
-                    </p>
+                        <p>Expert planning and execution of annual meetings with attention to detail and
+                            professionalism.
+                        </p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/images (1).jpg" alt="Service 6">
                     <div class="service-content">
                         <h3>Brand Activations</h3>
-                    <p>Creative brand activation campaigns to engage your audience and enhance brand visibility.</p>
+                        <p>Creative brand activation campaigns to engage your audience and enhance brand visibility.</p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/virtual-events-are-the-future-we-all-know-it.png" alt="Service 7">
                     <div class="service-content">
                         <h3>Virtual Events</h3>
-                    <p>Seamless virtual event planning with interactive platforms and engaging content.</p>
+                        <p>Seamless virtual event planning with interactive platforms and engaging content.</p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/destination-wedding.jpg" alt="Service 8">
                     <div class="service-content">
                         <h3>Destination Events</h3>
-                    <p>Planning and execution of events at exotic destinations, including travel and accommodation
-                        arrangements.</p>
+                        <p>Planning and execution of events at exotic destinations, including travel and accommodation
+                            arrangements.</p>
                     </div>
-                    
+
                 </div>
                 <div class="service">
                     <img src="Image/-15917580552152034504455.jpg" alt="Service 9">
@@ -308,53 +228,45 @@
                         <h3>Gala Dinners</h3>
                         <p>Elegant gala dinners with exquisite décor, gourmet dining, and live entertainment.</p>
                     </div>
-                   
+
                 </div>
                 <div class="service">
-                    <img src="Image/traditional-popular-food-mezban-mezban-traditional-food-chittagong-bangladesh-mezbani-meat-made-beef-fed-to-183962060.webp" alt="Service 10">
+                    <img src="Image/traditional-popular-food-mezban-mezban-traditional-food-chittagong-bangladesh-mezbani-meat-made-beef-fed-to-183962060.webp"
+                        alt="Service 10">
                     <div class="service-content">
                         <h3>Traditional MEZBAN</h3>
-                    <p>We can arrange The MEZBAN in Traditional way in any location or You can rent best chef and the needed instruments from us.</p>
+                        <p>We can arrange The MEZBAN in Traditional way in any location or You can rent best chef and
+                            the needed instruments from us.</p>
                     </div>
-            </div>
+                </div>
         </section>
         <section id="contact" class="section hidden">
-            <h2 id="dada">Contact Us</h2>
-            <h2 id="dada"><span class="spa">Let's Work </span> Together </h2>
-            <div class="box">
-
-            </div>
-            
-                <div class="contact-form">
-                    <h3>Contact Form</h3>
-                    <form action="#" method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject" required>
-                        
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        
-                        <button type="submit">Send Message</button>
-                    </form>
-                </div>
-            </div>
             <div class="contact-container">
                 <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>If you have any questions or would like to discuss your event, please get in touch with us using the form below or via our contact details.</p>
-                    <p><strong>Address:</strong> 123 Event Avenue, Chattogram, Bangladesh</p>
-                    <p><strong>Phone:</strong> 01575532030</p>
-                    <p><strong>Email:</strong> kabir@gmail.com</p>
-                    <a target="_blank" href="https://github.com/Kabir058"> <button class="but">Go here</button></a>
-            <p>My Linked In- <a href="https://www.linkedin.com/in/riduanul-kabir-775b5b250/"><button class="but">Go here</button></a></a></p>
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or would like to discuss your event, please get in touch with us using
+                        the form below or via our contact details.</p>
+                    <p><strong>Phone:</strong> +880 123-456-789</p>
+                    <p><strong>Email:</strong> info@eventmanagementctg.com</p>
                 </div>
+                <div class="contact-form">
+                    <h3>Contact Form</h3>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="contact">Contact No:</label>
+                        <input type="text" id="contact" name="contact" required>
+
+                        <label for="service">Service Needed:</label>
+                        <textarea id="service" name="service" rows="5" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>cd catering
+            </div>
         </section>
+
     </main>
 
 
